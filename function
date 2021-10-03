@@ -1,3 +1,17 @@
-def func( 2 , 2 ) 
-return a + b
+a = 2
+b = 2
+c = a + b
+print(c)
 
+
+# rows of X
+for i in range(len(X)):
+ # columns of Y
+   for j in range(len(Y[0])):
+       # rows of Y
+       for k in range(len(Y)):
+           result[i][j] += X[i][k] * Y[k][j]
+          
+for row in result:
+    print(row)
+   
